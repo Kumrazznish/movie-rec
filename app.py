@@ -4,7 +4,7 @@ import streamlit as st
 # =============================
 # CONFIG
 # =============================
-API_BASE = "http://127.0.0.1:8000"  # Local development server
+API_BASE = "https://movie-rec-sfu6.onrender.com" or "http://127.0.0.1:8000"  # Local development server
 TMDB_IMG = "https://image.tmdb.org/t/p/w500"
 
 st.set_page_config(page_title="Movie Recommender", page_icon="🎬", layout="wide")
